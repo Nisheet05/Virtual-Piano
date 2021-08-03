@@ -27,7 +27,18 @@
     }
     100%{
         opacity: 100%;
-@@ -43,18 +43,18 @@
+    }
+}
+#topbar{
+    margin: 1px auto 15px auto;
+    padding: 1px 10px 10px 20px;
+    height: 230px;
+    color: #ffd880;
+    width: 1420px;
+    text-align: right;
+    border-top: black;
+    border-bottom: black;
+    border-style: solid;
     border-width: 1px;
     position: absolute;
     top: 0px;
@@ -48,7 +59,13 @@
     top: 260px;
     border-radius: 5px;
     border-color: black;
-@@ -68,16 +68,12 @@
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    background: rgb(29, 28, 28);
+    justify-content: center;
+    box-shadow: 0px 4px 10px 0px rgb(53, 48, 48);
+}
 
 #pianoblackkeys{
     position: relative;
@@ -66,7 +83,141 @@
 }
 
 #bottombar{
-@@ -235,3 +231,4 @@ button{
+    position: absolute;
+    background: #ffd880;
+    height: 135px;
+    padding: 20px;
+    width: 1420px;
+    margin: -10px auto 15px auto;
+    padding: 15px 10px 10px 20px;
+    bottom: 0px;
+    text-align: center;
+    font-family: inherit;
+    border-top: black;
+    border-style: solid;
+    border-width: 1px;
+    justify-content: center;
+}
+#title{
+    position: relative;
+    top: 70px;
+    font-size: 60px;
+    font-family: 'Righteous', monospace;
+}
+#titleshadow{
+    position: relative;
+    top: -36px;
+    font-size: 60px;
+    font-family: 'Righteous', monospace;
+    opacity: 30%;
+}
+#subtitle{
+    top: -85px;
+    position: relative;
+    font-size: 40px;
+    font-family: 'Poiret One', monospace;
+    font-weight: 500;
+}
+#whitesegment{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.whitekey{
+    background: whitesmoke;
+    height: 200px;
+    width: 40px;
+    border-radius: 0px 0px 5px 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    box-shadow: 0px 7px 10px 0px rgb(53, 48, 48);
+}
+#blacksegment{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    /* border-radius: 0px 0px 5px 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    height: 20px;
+    background: red; */
+    width: 293px;
+    left: 57px;
+    
+}
+.blackkey1{
+    position: relative;
+    background: black;
+    height: 120px;
+    width: 25px;
+    left: 29px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 10px 6px 0px rgb(53, 48, 48);
+}
+.blackkey2{
+    background: black;
+    height: 120px;
+    width: 25px;
+    position: relative;
+    left: 46px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 10px 6px 0px rgb(53, 48, 48);
+}
+.blackkey3{
+    background: black;
+    height: 120px;
+    width: 25px;
+    left: 105px;
+    position: relative;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 10px 6px 0px rgb(53, 48, 48);
+}
+.blackkey4{
+    background: black;
+    height: 120px;
+    width: 25px;
+    left: 123px;
+    position: relative;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 10px 6px 0px rgb(53, 48, 48);
+}
+.blackkey5{
+    background: black;
+    height: 120px;
+    width: 25px;
+    left: 140px;
+    position: relative;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 10px 6px 0px rgb(53, 48, 48);
+}
+.key0:active{
+    transform: translateY(-2px);
+    box-shadow: 0px 10px 6px 0px rgb(53, 48, 48);
+    position: relative;
+    top: 2px;
+    height: 195px;
+}
+.key1:active{
+    transform: translateY(1px);  
+    position: relative;
+    top: -1px;
+    height: 115px;
+}
+#pianochanger{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    font-family: 'Poiret One', monospace;
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+    border-style: solid;
+    border-width: 4px;
     border-color: #f5f5f5;
     border-radius: 5px;
 }
