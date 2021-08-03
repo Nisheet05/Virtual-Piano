@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>Virtual Piano</title>
+        <link rel="stylesheet" href="VirtualPiano.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="shortcut icon" href="resources/images/piano.png" type="image/x-icon">
+<script src="VirtualPiano.js"></script>
+    </head>
+    <body id="mainbody">
+        <div id ="topbar">
+            <h1 id="title">Virtual Piano</h1>
+            <h1 id="titleshadow">Virtual Piano</h1>
+            <h2 id="subtitle">Verzeo <b>Web Development</b> Project</h2>
+        </div>
+        <div id="pianowhitekeys">
+            <!-- 1 -->
+            <div id="whitesegment">
+            <div id="whitesegment"> 
+                <div onclick="playkey(0)" class="whitekey key0"></div>
+                <div onclick="playkey(1)" class="whitekey key0"></div>
+                <div onclick="playkey(2)" class="whitekey key0"></div>
+                <div onclick="playkey(3)" class="whitekey key0"></div>
+                <div onclick="playkey(4)" class="whitekey key0"></div>
+                <div onclick="playkey(5)" class="whitekey key0"></div>
+                <div onclick="playkey(6)" class="whitekey key0"></div>
+            </div>
+            <!-- 2 -->
+            <div id="whitesegment"> 
+                <div onclick="playkey(7)" class="whitekey key0"></div>
+                <div onclick="playkey(8)" class="whitekey key0"></div>
+                <div onclick="playkey(9)" class="whitekey key0"></div>
+                <div onclick="playkey(10)" class="whitekey key0"></div>
+                <div onclick="playkey(11)" class="whitekey key0"></div>
+                <div onclick="playkey(12)" class="whitekey key0"></div>
+                <div onclick="playkey(13)" class="whitekey key0"></div>
+            </div>
+            <!-- 3 -->
+            <div id="whitesegment"> 
+                <div onclick="playkey(14)" class="whitekey key0"></div>
+                <div onclick="playkey(15)" class="whitekey key0"></div>
+                <div onclick="playkey(16)" class="whitekey key0"></div>
+                <div onclick="playkey(17)" class="whitekey key0"></div>
+                <div onclick="playkey(18)" class="whitekey key0"></div>
+                <div onclick="playkey(19)" class="whitekey key0"></div>
+                <div onclick="playkey(20)" class="whitekey key0"></div>
+            </div>
+            </div>
+        </div>
+        <div id="pianoblackkeys">
+                <div id="blacksegment">
+                    <div onclick="playkey(21)" class="blackkey1 key1"></div>
+                    <div onclick="playkey(22)" class="blackkey2 key1"></div>
+                    <div onclick="playkey(23)" class="blackkey3 key1"></div>
+                    <div onclick="playkey(24)" class="blackkey4 key1"></div>
+                    <div onclick="playkey(25)" class="blackkey5 key1"></div>
+                </div>
+                <div id="blacksegment">
+                    <div onclick="playkey(26)" class="blackkey1 key1"></div>
+                    <div onclick="playkey(27)" class="blackkey2 key1"></div>
+                    <div onclick="playkey(28)" class="blackkey3 key1"></div>
+                    <div onclick="playkey(29)" class="blackkey4 key1"></div>
+                    <div onclick="playkey(30)" class="blackkey5 key1"></div>
+                </div>
+                <div id="blacksegment">
+                    <div onclick="playkey(31)" class="blackkey1 key1"></div>
+                    <div onclick="playkey(32)" class="blackkey2 key1"></div>
+                    <div onclick="playkey(33)" class="blackkey3 key1"></div>
+                    <div onclick="playkey(34)" class="blackkey4 key1"></div>
+                    <div onclick="playkey(35)" class="blackkey5 key1"></div>
+                </div>
+        </div>
+        <div id="bottombar">
+            <div id="pianochanger">
+                <button id="themechanger" onclick="changetheme()">Change Theme</button>
+                <button id="colorchanger" onclick="changecolor()">Change Color</button>
+            </div>
+            <br>
+            <h2>Made with <heart id="heart">♥</heart> by Nishit Lugun </h2>
+        </div>
+    </body>
+    </html>
