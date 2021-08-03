@@ -1,4 +1,4 @@
-        // red, yellow, green, blue#f5f5f5
+             // red, yellow, green, blue#f5f5f5
         var colors = ['#ffc1b6', '#ffeda3', '#ccffbd', '#caf7e3', '#e9d4c3'];
         var themes = ['#a58faa', '#de8971', '#ff9f40', '#709fb0', '#1d1c1c'];
         var audios = [
